@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+		<!-- Validator use for all  -->
+		<!-- <validator type="requiredstring">
+			<param name="fieldName">name</param>		
+			<param name="trim">true</param>
+			<message>Fields can't be blank</message>	
+		</validator> -->
+		
+		<field name="name">
+				<field-validator type="requiredstring">
+				<param name="fieldName">name</param>
+				<message>Please enter at least 5 chars</message>
+				</field-validator>
+		</field>
+		<field name="email">
+		
+			<field-validator type="requiredstring">
+				<param name="fieldName">email</param>
+				<message>Please enter a email</message>
+			</field-validator>
+			
+			<field-validator type="email">
+				<param name="fieldName">email</param>
+				<message>Please enter a valid email</message>
+			</field-validator>
+			
+		</field>
+		<field name="subject">
+				<field-validator type="requiredstring">
+				<param name="fieldName">subject</param>
+				<message>Please enter at least 8 word of subject</message>
+				</field-validator>
+		</field>
+		<field name="message">
+				<field-validator type="requiredstring">
+				<param name="fieldName">message</param>
+				<message>Please write something for us</message>
+				</field-validator>
+		</field>
+		
+</validators>  		

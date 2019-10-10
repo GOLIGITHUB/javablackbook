@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+	
+	<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="blog" extends="struts-default" namespace="/blog">
+	
+	<result-types>
+		<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+	</result-types>
+
+	<action name="question_one">
+	<result name="success"  type="tiles">blog_question_one</result>
+	</action>
+	<action name="question_two">
+	<result name="success"  type="tiles">blog_question_two</result>
+	</action>
+	<action name="question_three">
+	<result name="success"  type="tiles">blog_question_three</result>
+	</action>
+	<action name="question_four">
+	<result name="success"  type="tiles">blog_question_four</result>
+	</action>
+					
+	
+				
+</package>
+</struts>

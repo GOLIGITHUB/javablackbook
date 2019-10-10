@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+	
+	<struts>
+	<constant name="struts.devMode" value="true"/>
+			
+	<package name="oracle" extends="struts-default" namespace="/oracle">
+	
+	<result-types>
+	<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+	</result-types>
+	
+	
+	<action name="core_oracle_home_page">
+	<result name="success"  type="tiles">core_oracle_home_page</result>
+	</action>
+	<action name="brief_over_view_oracle">
+	<result name="success"  type="tiles">brief_over_view_oracle</result>
+	</action>
+	<action name="testing">
+	<result name="success" type="tiles">oracle_testing_purpose</result>
+	</action>				
+	
+				
+				
+</package>
+</struts>

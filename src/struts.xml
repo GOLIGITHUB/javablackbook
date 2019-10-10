@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<constant name="struts.devMode" value="false"/>
+	<package name="default"  extends="struts-default" namespace="/">
+			
+		<result-types>
+		<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+		
+		<!-- Exception or Error page mapping(Start) -->
+		<!-- <global-results>
+		<result name="error" type="tiles" >public_error_page</result>
+		</global-results>
+		<global-exception-mappings>
+		<exception-mapping result="error" exception="java.lang.exception"/>
+		</global-exception-mappings> -->
+		<!-- Exception or Error page mapping(End) -->
+	
+		<action name="main_home">
+			<result name="success">index.jsp</result>
+		</action>
+		<action name="blog">
+			<result name="success">index.jsp</result>
+		</action>
+			
+	<!-- <action name="submitQuery" class="com.jbb.GetBean.SubmitQueryBean" method="execute">
+	<interceptor-ref name="jsonValidationWorkflowStack"/>
+	<result  name="success" type="tiles">successfully_submit_Query</result>
+	<result  name="input" type="tiles">unsuccessfully_submit_Query</result>
+	</action> -->
+			
+</package>
+	<include file="struts_links/java_links.xml"/>
+	<include file="struts_links/python_links.xml"/>
+	<include file="struts_links/oracle_links.xml"/>
+	<include file="struts_links/blog_links.xml"/>
+	<include file="struts_links/linux_links.xml"/>
+</struts>	

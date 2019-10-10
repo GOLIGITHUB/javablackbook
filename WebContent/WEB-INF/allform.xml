@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+       
+<tiles-definitions>
+       
+ 	<definition name="successfully_submit_Query"  template="/LayoutManagerSubmit.jsp">
+ 		<put-attribute name="title" value="Successfully"></put-attribute>
+ 		<put-attribute name="body" value="/TestingSuccess.jsp"></put-attribute> 
+ 		
+ 	</definition>
+ 	<definition name="unsuccessfully_submit_Query"  template="/LayoutManagerSubmit.jsp">
+ 		<put-attribute name="title" value="Unsuccessfully"></put-attribute>
+ 		<put-attribute name="body" value="/TestingError.jsp"></put-attribute> 
+ 	</definition>
+ 	
+ </tiles-definitions>
+       
+       

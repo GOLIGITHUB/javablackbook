@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+        
+        
+        
+        
+        
+ 	<tiles-definitions>
+ 	
+ 	
+ 	<definition name="python_testing_purpose"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python Testing Purpose "></put-attribute>
+ 		<put-attribute name="body" value="/python/Testing.jsp"></put-attribute> 		
+ 	</definition>
+ 	
+	<definition name="core_python_home_page"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python Home Page"></put-attribute>
+ 		<put-attribute name="body" value="/python/core_python_home_page.jsp"></put-attribute> 		
+ 	</definition>
+ 	
+	<definition name="pythonBasic"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python Basic Concept"></put-attribute>
+ 		<put-attribute name="body" value="/python/pythonBasic.jsp"></put-attribute> 		
+ 	</definition>
+
+	<definition name="pythonVariable"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python Variable"></put-attribute>
+ 		<put-attribute name="body" value="/python/pythonVariable.jsp"></put-attribute> 		
+ 	</definition>
+ 	
+ 	<definition name="python_Operators"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python Operators "></put-attribute>
+ 		<put-attribute name="body" value="/python/python_Operators.jsp"></put-attribute> 		
+ 	</definition>
+ 	
+ 	<definition name="python_control_statements"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python control statements "></put-attribute>
+ 		<put-attribute name="body" value="/python/python_control_statements.jsp"></put-attribute> 		
+ 	</definition>
+ 	
+ 	<definition name="python_function"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python function "></put-attribute>
+ 		<put-attribute name="body" value="/python/python_function.jsp"></put-attribute> 		
+ 	</definition>
+ 	
+ 	<definition name="python_class_and_object"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python class and object "></put-attribute>
+ 		<put-attribute name="body" value="/python/python_class_object.jsp"></put-attribute> 		
+ 	</definition>
+ 	
+ 	
+</tiles-definitions>

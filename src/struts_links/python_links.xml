@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+	
+	<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="python" extends="struts-default" namespace="/python">
+	
+	<result-types>
+		<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+	</result-types>
+
+	<action name="core_python_home_page">
+	<result name="success"  type="tiles">core_python_home_page</result>
+	</action>
+					
+	<action name="pythonBasic">
+	<result name="success"  type="tiles">pythonBasic</result>
+	</action>
+	<action name="pythonVariable">
+	<result name="success"  type="tiles">pythonVariable</result>
+	</action>
+	<action name="python_Operators">
+	<result name="success"  type="tiles">python_Operators</result>
+	</action>
+	<action name="pythoncontrolstatements">
+	<result name="success"  type="tiles">python_control_statements</result>
+	</action>
+	<action name="pythonfunction">
+	<result name="success"  type="tiles">python_function</result>
+	</action>
+	<action name="pythonclassandobject">
+	<result name="success"  type="tiles">python_class_and_object</result>
+	</action>			
+	<action name="testing">
+	<result name="success" type="tiles">python_testing_purpose</result>
+	</action>			
+				
+</package>
+</struts>
