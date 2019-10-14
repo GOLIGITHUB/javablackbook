@@ -15,7 +15,7 @@
 			<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
 					<li><a title="Core Java" href="/javablackbook/java/core_java_home_page">Java</a></li> 
-					<li><a title="Python" href="/javablackbook/python/core_python_home_page">Python</a></li>
+					<li><a title="Python" href="/javablackbook/python/Core_And_Advance_Python_Home_Page">Python</a></li>
 					<li><a title="Python" href="/javablackbook/linux/core_linux_home_page">Linux</a></li>
 					<li><a title="Blog"  id="blog" href="/javablackbook/blog">Blog</a></li>
 				</ul>

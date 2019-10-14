@@ -7,35 +7,49 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class BlogBean {
-	
 	int blogId;
 	String blogSubject;
-	String blogDate;
+	String blogCreateDate;
+	String blogView;
+	
 	public int getBlogId() {
 		return blogId;
 	}
+
 	public void setBlogId(int blogId) {
 		this.blogId = blogId;
 	}
+
 	public String getBlogSubject() {
 		return blogSubject;
 	}
+
 	public void setBlogSubject(String blogSubject) {
 		this.blogSubject = blogSubject;
 	}
-	public String getBlogDate() {
-		return blogDate;
+
+	public String getBlogCreateDate() {
+		return blogCreateDate;
 	}
-	public void setBlogDate(String blogDate) {
-		this.blogDate = blogDate;
+
+	public void setBlogCreateDate(String blogCreateDate) {
+		this.blogCreateDate = blogCreateDate;
 	}
+
+	public String getBlogView() {
+		return blogView;
+	}
+
+	public void setBlogView(String blogView) {
+		this.blogView = blogView;
+	}
+
 	
 	@Override
 	public String toString() {
-		return blogId + " " + blogSubject + " " + blogDate;
+		return blogId + " " + blogSubject + " " + blogCreateDate + " " + blogView ;
 	}
-	
-	
+
 	public static String getCurrentDateTmeSecond() {
 		LocalDateTime current = LocalDateTime.now();
 		DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");   

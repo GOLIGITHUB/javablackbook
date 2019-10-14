@@ -1,3 +1,11 @@
+<%@page import="java.util.List"%>
+<%@page import="com.jbb.GetDao.BlogDao"%>
+<%@page import="com.jbb.GetBean.BlogBean"%>
+<% 
+List<BlogBean> blogBeanList=BlogDao.getBlogMessage();
+for(BlogBean blogBean:blogBeanList){
+out.print(blogBean.getBlogId()+":"+blogBean.getBlogSubject()+":"+blogBean.getBlogCreateDate()+":"+blogBean.getBlogView());%><br><%
+}%>
 <!-- end spacer section -->
 <!-- section: blog -->
 <section id="blog" class="section">
@@ -12,11 +20,11 @@
 				</div>
 				<div class="post-meta">
 					<i class="icon-file icon-2x"></i>
-					<span class="date">June 19, 2013</span>
+					<span class="date"></span>
 					<span class="tags"><a href="#">Design</a>, <a href="#">Blog</a></span>
 				</div>
 				<div class="entry-content">
-					<h5><strong><a href="/javablackbook/blog/question_one" target="_blank">How to send mail in jsp?</a></strong></h5>
+					<h5><strong><a href="/javablackbook/blog/question_one" target="_blank">blog subject</a></strong></h5>
 					<!-- <p>
 						Soon &hellip;
 					</p> -->
@@ -35,7 +43,7 @@
 					<span class="tags"><a href="#">Design</a>, <a href="#">News</a></span>
 				</div>
 				<div class="entry-content">
-					<h5><strong><a href="/javablackbook/blog/question_two" target="_blank" >how to create mailing system in Spring?</a></strong></h5>
+					<h5><strong><a href="/javablackbook/blog/question_two" target="_blank" >blog subject</a></strong></h5>
 					<!-- <p>
 						Soon &hellip;
 					</p> -->
@@ -54,7 +62,7 @@
 					<span class="tags"><a href="#">Design</a>, <a href="#">Tips</a></span>
 				</div>
 				<div class="entry-content">
-					<h5><strong><a href="/javablackbook/blog/question_three" target="_blank">CRUD core application using hibernate?</a></strong></h5>
+					<h5><strong><a href="/javablackbook/blog/question_three" target="_blank">blog subject</a></strong></h5>
 					<!-- <p>
 						Soon &hellip;
 					</p> -->
@@ -73,7 +81,7 @@
 					<span class="tags"><a href="#">News</a>, <a href="#">Tutorial</a></span>
 				</div>
 				<div class="entry-content">
-					<h5><strong><a href="/javablackbook/blog/question_four" target="_blank">CRUD core application using hibernate?</a></strong></h5>
+					<h5><strong><a href="/javablackbook/blog/question_four" target="_blank">blog subject</a></strong></h5>
 					<!-- <p>
 					 Soon &hellip;	
 					</p> -->
@@ -87,4 +95,5 @@
 		<a href="#" class="btn btn-large btn-theme">More blog post</a>
 	</div>
 </div>
-</section>              
+</section>
+             

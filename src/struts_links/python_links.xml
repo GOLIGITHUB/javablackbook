@@ -11,28 +11,34 @@
 		<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
 	</result-types>
 
-	<action name="core_python_home_page">
-	<result name="success"  type="tiles">core_python_home_page</result>
+	<action name="Core_And_Advance_Python_Home_Page">
+	<result name="success"  type="tiles">Core_And_Advance_Python_Home_Page</result>
 	</action>
 					
-	<action name="pythonBasic">
-	<result name="success"  type="tiles">pythonBasic</result>
+	<action name="python_Basic">
+	<result name="success"  type="tiles">python_Basic</result>
 	</action>
-	<action name="pythonVariable">
-	<result name="success"  type="tiles">pythonVariable</result>
+	<action name="python_Variable">
+	<result name="success"  type="tiles">python_Variable</result>
 	</action>
 	<action name="python_Operators">
 	<result name="success"  type="tiles">python_Operators</result>
 	</action>
-	<action name="pythoncontrolstatements">
-	<result name="success"  type="tiles">python_control_statements</result>
+	<action name="python_Control_Statements">
+	<result name="success"  type="tiles">python_Control_Statements</result>
 	</action>
-	<action name="pythonfunction">
-	<result name="success"  type="tiles">python_function</result>
+	<action name="python_Function">
+	<result name="success"  type="tiles">python_Function</result>
 	</action>
-	<action name="pythonclassandobject">
-	<result name="success"  type="tiles">python_class_and_object</result>
-	</action>			
+	<action name="python_Method">
+	<result name="success"  type="tiles">python_Method</result>
+	</action>
+	<action name="python_Class_and_Object">
+	<result name="success"  type="tiles">python_Class_and_Object</result>
+	</action>	
+	<action name="python_Inheritance">
+	<result name="success" type="tiles">python_Inheritance</result>
+	</action>		
 	<action name="testing">
 	<result name="success" type="tiles">python_testing_purpose</result>
 	</action>			
