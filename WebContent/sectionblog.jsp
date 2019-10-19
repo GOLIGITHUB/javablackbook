@@ -1,11 +1,3 @@
-<%@page import="java.util.List"%>
-<%@page import="com.jbb.GetDao.BlogDao"%>
-<%@page import="com.jbb.GetBean.BlogBean"%>
-<% 
-List<BlogBean> blogBeanList=BlogDao.getBlogMessage();
-for(BlogBean blogBean:blogBeanList){
-out.print(blogBean.getBlogId()+":"+blogBean.getBlogSubject()+":"+blogBean.getBlogCreateDate()+":"+blogBean.getBlogView());%><br><%
-}%>
 <!-- end spacer section -->
 <!-- section: blog -->
 <section id="blog" class="section">

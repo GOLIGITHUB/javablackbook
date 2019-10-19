@@ -108,6 +108,11 @@
  		<put-attribute name="body" value="/python/python_Polymorphism.jsp"></put-attribute> 		
  	</definition>
  	
+ 	<definition name="python_Encapsulation"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="python Encapsulation"></put-attribute>
+ 		<put-attribute name="body" value="/python/python_Encapsulation.jsp"></put-attribute> 		
+ 	</definition>
+ 	
  	<definition name="python_Abstraction"  template="/LayoutManagerPython.jsp">
  		<put-attribute name="title" value="Python Abstraction"></put-attribute>
  		<put-attribute name="body" value="/python/python_Abstraction.jsp"></put-attribute> 		

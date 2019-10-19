@@ -4,10 +4,8 @@
   <li> super can invoke parent class constructor </li>
   <li> super can invoke parent class variable </li>
 </ul>
-<h2>super can invoke parent class method</h2>
-<p>calling super class methods : by using super()</p>
-
-<pre>
+<h3>Super can invoke parent class method.calling Super class methods : by using super()</h3>
+<pre id="codepre">
 class A10:
 	def displayInsatneMethod1(self):
 		print("Instance Method A10")
@@ -19,14 +17,14 @@ b10=B10();#child class Object
 b10.displayInsatneMethod2()
 </pre>
 
-<pre>
+<pre id="outputpre">
 Instance Method B10
 Instance Method A10
 </pre>
 
-<h2>super can invoke parent class method with argument</h2>
+<h3>Super can invoke parent class method with argument</h3>
 
-<pre>
+<pre id="codepre">
 class A10:
 	def displayInsatneMethod1(self,fname,lname):
 		print("Instance Method A10 :", fname ,lname )
@@ -38,14 +36,14 @@ b10=B10();#child class Object
 b10.displayInsatneMethod2()
 </pre>
 
-<pre>
+<pre id="outputpre">
 Instance Method B10
 Instance Method A10 : ABC XYZ
 </pre>
 
-<h2>super invoke parent class, Variable. with different  name</h2>
+<h3>Super invoke parent class Variable with different  name</h3>
 
-<pre>
+<pre id="codepre">
 comName="XYZ"
 localtion="UP"
 class A10:
@@ -58,25 +56,27 @@ class B10(A10):
 	localtion2="California"
 
 	def displayInsatneMethod2(self,comName3,localtion3):
-		#self check current class have fname and lname .if not then preferr to parent class fname and lanme
-		print(self.comName1+" "+self.localtion1)#as class variable
-		print(self.comName2+" "+self.localtion2)#as class variable
-		print(globals()['comName']+" "+globals()['localtion'])#as globals variable
+		#as class variable
+		print(self.comName1+" "+self.localtion1)
+		#as class variable
+		print(self.comName2+" "+self.localtion2)
+		#as globals variable
+		print(globals()['comName']+" "+globals()['localtion'])
 		print(comName3+" "+localtion3)#as local variable
 b10=B10();#child class Object
 b10.displayInsatneMethod2("JBBAPP","Germany")		
 </pre>
 
-<pre>
+<pre id="outputpre">
 JBB US
 APP California
 XYZ UP
 JBBAPP Germany
 </pre>
 
-<h2>super invoke parent class, class variable. with same name</h2>
+<h3>Super invoke parent class, class variable with same name</h3>
 
-<pre>
+<pre id="codepre">
 comName="XYZ"
 localtion="UP"
 class A10:
@@ -89,15 +89,18 @@ class B10(A10):
 	localtion="California"
 
 	def displayInsatneMethod2(self,comName3,localtion3):
-		print(self.comName+" "+self.localtion)#current class variable comName and localtion
-		print(super().comName+" "+super().localtion)#parent class variable comName and localtion
-		print(globals()['comName']+" "+globals()['localtion'])#as globals variable
+		#current class variable comName and localtion
+		print(self.comName+" "+self.localtion)
+		#parent class variable comName and localtion
+		print(super().comName+" "+super().localtion)
+		#as globals variable
+		print(globals()['comName']+" "+globals()['localtion'])
 		print(comName3+" "+localtion3)#as local variable
 b10=B10();#child class Object
 b10.displayInsatneMethod2("JBBAPP","Germany")	
 </pre>
 
-<pre>
+<pre id="outputpre">
 APP California
 JBB US
 XYZ UP
@@ -105,7 +108,7 @@ JBBAPP Germany
 </pre>
 <h2>Super invoke parent class default constructor</h2>
 
-<pre>
+<pre id="codepre">
 class A10:
 
 	def __init__(self):
@@ -119,12 +122,12 @@ class B10(A10):
 
 b10=B10();#child class Object
 </pre>
-<pre>
+<pre id="outputpre">
 Default Constructor B10
 Default Constructor A10
 </pre>
 <h2>Super invoke parent class parameterized constructor</h2>
-<pre>
+<pre id="codepre">
 class A10:
 
 	def __init__(self,fname,lname):
@@ -138,12 +141,12 @@ class B10(A10):
 
 b10=B10();#child class Object
 </pre>
-<pre>
+<pre id="outputpre">
 Default Constructor B10
 Default Constructor A10 : JBB Pvt. Ltd.
 </pre>
 <h2>Parent class Constructor call multiple  time form child class</h2>
-<pre>
+<pre id="codepre">
 class A10:
 	
 	def __init__(self):
@@ -159,7 +162,7 @@ class B10(A10):
 
 b10=B10();#child class Object
 </pre>
-<pre>
+<pre id="outputpre">
 parent class Constructor
 child class Constructor
 parent class Constructor
@@ -170,7 +173,7 @@ parent class Constructor
 	<li>by super keyword</li>
 	<li>by parent class Name : </li>
 </ul>
-<pre>
+<pre id="codepre">
 class A10:
 	
 	def __init__(self):
@@ -183,8 +186,59 @@ class B10(A10):
 		print("child class Constructor")
 b10=B10();#child class Object
 </pre>
-<pre>
+<pre id="outputpre">
 parent class Constructor
 child class Constructor
 </pre>
-<p>Here if you are calling the parent class constructor by using class Name </p>
+<h3>
+Here if you are calling the parent class constructor by using 
+class Name in this case frist args must be self args
+</h3>
+<pre id="codepre">
+class A10:
+	
+	def __init__(self,email):
+		print("parent class Constructor",email)
+
+class B10(A10):
+	
+	def __init__(self):
+		super().__init__("ashu@gmail.com")
+		print("1 child class Constructor")
+		A10.__init__(self,"arun@gmail.com")
+		print("2 child class Constructor")
+
+b10=B10();#child class Object
+</pre>
+<pre id="outputpre">
+parent class Constructor ashu@gmail.com
+1 child class Constructor
+parent class Constructor arun@gmail.com
+2 child class Constructor
+</pre>
+<h1>copy constructor</h1>
+<pre id="codepre">
+class HrEmploye:
+	
+	def __init__(self,fn,ln):
+		self.fn=fn
+		self.ln=ln
+class Employee(HrEmploye):
+
+	def __init__(self,fn,ln,em):
+		#super().__init__(fn,ln)
+		#OR
+		HrEmploye.__init__(self,fn,ln)
+		self.em=em
+
+	def display(self):
+		print("Fn:",self.fn," Ln:",self.ln," Em:",self.em)
+		print("Fn:{} Ln:{} Em:{}".format(self.fn,self.ln,self.em))
+
+e1=Employee("Ashutosh","Mishra","ashumishra9015@gmail.com")
+e1.display()
+</pre>
+<pre id="outputpre">
+Fn: Ashutosh  Ln: Mishra  Em: ashumishra9015@gmail.com
+Fn:Ashutosh Ln:Mishra Em:ashumishra9015@gmail.com
+</pre>

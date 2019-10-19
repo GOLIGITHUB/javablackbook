@@ -18,6 +18,7 @@
 	<li><a href="python_Inheritance">Python Inheritance</a></li>
 	<li><a href="python_Super_Keyword">python Super</a></li>
 	<li><a href="python_Polymorphism">Python Polymorphism</a></li>
+	<li><a href="python_Encapsulation">python Encapsulation</a></li>
 	<li><a href="python_Abstraction">Python Abstraction</a></li>
 	<li><a href="python_Exception_Handling">Python Exception Handling</a></li>
 	<li><a href="python_Database_Connectivity">Python Database Connectivity</a></li>

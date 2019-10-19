@@ -69,6 +69,9 @@
 	<action name="python_Polymorphism">
 	<result name="success" type="tiles">python_Polymorphism</result>
 	</action>
+	<action name="python_Encapsulation">
+	<result name="success" type="tiles">python_Encapsulation</result>
+	</action>
 	<action name="python_Abstraction">
 	<result name="success" type="tiles">python_Abstraction</result>
 	</action>
