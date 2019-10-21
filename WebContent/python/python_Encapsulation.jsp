@@ -1,7 +1,7 @@
-<h2>binding  the data and data member in single unit is call encapsulation</h2>
+<h2>Binding  the data and data member in single unit is call encapsulation</h2>
 <p>if we define the data privately . We can't access outside class</p>
-<h3>private variables : we can access only with in the class</h3>
-<pre>
+<h3>Private Variables : we can access only with in the class</h3>
+<pre id="codepre">
 class A10:
 	__fname="Ashu"
 	def display(self):
@@ -12,11 +12,11 @@ print(a1.display())
 #access outside class
 print(A10.__fname)
 </pre>
-<pre>
+<pre id="outputpre">
     print(A10.__fname)
 AttributeError: type object 'A10' has no attribute '__fname'
 </pre>
-<pre>
+<pre id="codepre">
 class A10:
 	__fname="Ashu"
 	def display(self):
@@ -24,11 +24,11 @@ class A10:
 a1=A10()
 print(a1.display())
 </pre>
-<pre>
+<pre id="outputpre">
 Ashu
 </pre>
-<h3>private method : we can access only with in the class</h3>
-<pre>
+<h3>Private Method : we can access only with in the class</h3>
+<pre id="codepre">
 class A10:
 	
 	def __display(self):
@@ -41,12 +41,12 @@ a1.call()
 #access outside class
 print(A10.__display())
 </pre>
-<pre>
+<pre id="outputpre">
     print(A10.__display())
 AttributeError: type object 'A10' has no attribute '__display'
 </pre>
 
-<pre>
+<pre id="codepre">
 class A10:
 	def __display(self):
 		return "private method"
@@ -55,11 +55,11 @@ class A10:
 a1=A10()
 a1.call()
 </pre>
-<pre>
+<pre id="outputpre">
 private method call by other method inside class
 </pre>
-<h3>getter and setter in python</h3>
-<pre>
+<h3>Getter and Setter in python</h3>
+<pre id="codepre">
 class Employee:
 	def setFName(self,fname):
 		self.__fname=fname
@@ -80,11 +80,11 @@ e1.setLName("mishra")
 e1.setEmail("ashu@gmail.com")
 print(e1.getFName()," ",e1.getLName()," ",e1.getEmail())			
 </pre>
-<pre>
+<pre id="outputpre">
 ashu   mishra   ashu@gmail.com
 </pre>
-<h3>setter and getter with using __str__() method</h3>
-<pre>
+<h3>Setter and Getter with using __str__() method</h3>
+<pre id="codepre">
 class Employee:
 	def setFName(self,fname):
 		self.__fname=fname
@@ -111,7 +111,7 @@ e2.setLName("singh")
 e2.setEmail("arun@gmail.com")
 print(e2)			
 </pre>
-<pre>
+<pre id="outputpre">
 ashu mishra ashu@gmail.com
 arun singh arun@gmail.com
 </pre>

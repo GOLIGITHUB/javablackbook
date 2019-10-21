@@ -75,6 +75,9 @@
 	<action name="python_Abstraction">
 	<result name="success" type="tiles">python_Abstraction</result>
 	</action>
+	<action name="python_Packages_Modules">
+	<result name="success" type="tiles">python_Packages_Modules</result>
+	</action>
 	<action name="python_Exception_Handling">
 	<result name="success" type="tiles">python_Exception_Handling</result>
 	</action>

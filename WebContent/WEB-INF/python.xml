@@ -118,6 +118,11 @@
  		<put-attribute name="body" value="/python/python_Abstraction.jsp"></put-attribute> 		
  	</definition>
  	
+ 	<definition name="python_Packages_Modules"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="python Packages Modules"></put-attribute>
+ 		<put-attribute name="body" value="/python/python_Packages_Modules.jsp"></put-attribute> 		
+ 	</definition>
+ 	
  	<definition name="python_Exception_Handling"  template="/LayoutManagerPython.jsp">
  		<put-attribute name="title" value="python Exception Handling"></put-attribute>
  		<put-attribute name="body" value="/python/python_Exception_Handling.jsp"></put-attribute> 		

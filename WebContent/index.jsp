@@ -16,24 +16,11 @@
 <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
-<!-- 
-=======================================================
-    Author: Kaluram
-    Date:21.11.2017
-=======================================================
- -->
 <jsp:include page="navbar.jsp"/>
 <jsp:include page="sectionitem.jsp"/>
-<%-- <jsp:include page="sectionservices.jsp"/> --%>
 <jsp:include page="sectionblog.jsp"/>
 <jsp:include page="sectioncontact.jsp"/>
 <jsp:include page="footer.jsp"/>
-<!-- 
-=======================================================
-    Author: Kaluram
-    Date:21.11.2017
-=======================================================
- -->
 <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
 <script src="js/jquery.js"></script>
 <script src="js/jquery.scrollTo.js"></script>
