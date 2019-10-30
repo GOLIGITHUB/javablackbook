@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+	
+	<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="python" extends="struts-default" namespace="/python">
+	
+	<result-types>
+		<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+	</result-types>
+
+	<action name="Core-And-Advance-Python-Home-Page">
+	<result name="success"  type="tiles">Core-And-Advance-Python-Home-Page</result>
+	</action>
+					
+	<action name="python-Basic">
+	<result name="success"  type="tiles">python-Basic</result>
+	</action>
+	<action name="python-Data-Types">
+	<result name="success"  type="tiles">python-Data-Types</result>
+	</action>
+	<action name="python-Variable">
+	<result name="success"  type="tiles">python-Variable</result>
+	</action>
+	<action name="python-Operators">
+	<result name="success"  type="tiles">python-Operators</result>
+	</action>
+	<action name="python-Array">
+	<result name="success"  type="tiles">python-Array</result>
+	</action>
+	<action name="python-Input-Output">
+	<result name="success"  type="tiles">python-Input-Output</result>
+	</action>
+	<action name="python-Control-Statements">
+	<result name="success"  type="tiles">python-Control-Statements</result>
+	</action>
+	<action name="python-List">
+	<result name="success"  type="tiles">python-List</result>
+	</action>
+	<action name="python-Set">
+	<result name="success"  type="tiles">python-Set</result>
+	</action>
+	<action name="python-Tuple">
+	<result name="success"  type="tiles">python-Tuple</result>
+	</action>
+	<action name="python-Dictionary">
+	<result name="success"  type="tiles">python-Dictionary</result>
+	</action>
+	<action name="python-Function">
+	<result name="success"  type="tiles">python-Function</result>
+	</action>
+	<action name="python-Method">
+	<result name="success"  type="tiles">python-Method</result>
+	</action>
+	<action name="python-String">
+	<result name="success"  type="tiles">python-String</result>
+	</action>
+	<action name="python-Class-and-Object">
+	<result name="success"  type="tiles">python-Class-and-Object</result>
+	</action>	
+	<action name="python-Inheritance">
+	<result name="success" type="tiles">python-Inheritance</result>
+	</action>
+	<action name="python-Super-Keyword">
+	<result name="success" type="tiles">python-Super-Keyword</result>
+	</action>
+	<action name="python-Polymorphism">
+	<result name="success" type="tiles">python-Polymorphism</result>
+	</action>
+	<action name="python-Encapsulation">
+	<result name="success" type="tiles">python-Encapsulation</result>
+	</action>
+	<action name="python-Abstraction">
+	<result name="success" type="tiles">python-Abstraction</result>
+	</action>
+	<action name="python-Packages-Modules">
+	<result name="success" type="tiles">python-Packages-Modules</result>
+	</action>
+	<action name="python-Exception-Handling">
+	<result name="success" type="tiles">python-Exception-Handling</result>
+	</action>
+	<action name="python-Database-Connectivity">
+	<result name="success" type="tiles">python-Database-Connectivity</result>
+	</action>
+	<action name="python-Regular-Expressions">
+	<result name="success" type="tiles">python-Regular-Expressions</result>
+	</action>
+	<action name="python-File-Handling">
+	<result name="success" type="tiles">python-File-Handling</result>
+	</action>
+	<action name="python-Networking">
+	<result name="success" type="tiles">python-Networking</result>
+	</action>
+	<action name="python-multithreading">
+	<result name="success" type="tiles">python-multithreading</result>
+	</action>
+	<action name="python-Numbers">
+	<result name="success" type="tiles">python-Numbers</result>
+	</action>
+	<action name="python-Dates">
+	<result name="success" type="tiles">python-Dates</result>
+	</action>
+	<action name="python-Time">
+	<result name="success" type="tiles">python-Time</result>
+	</action>		
+	<action name="testing">
+	<result name="success" type="tiles">python_testing_purpose</result>
+	</action>			
+				
+</package>
+</struts>

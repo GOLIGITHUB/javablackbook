@@ -19,10 +19,10 @@
 		</global-exception-mappings> -->
 		<!-- Exception or Error page mapping(End) -->
 	
-		<action name="main_home">
+		<action name="java-black-book-main-home">
 			<result name="success">index.jsp</result>
 		</action>
-		<action name="blog">
+		<action name="java-black-book-blog">
 			<result name="success">index.jsp</result>
 		</action>
 			
@@ -33,9 +33,9 @@
 	</action> -->
 			
 </package>
-	<include file="struts_links/java_links.xml"/>
-	<include file="struts_links/python_links.xml"/>
-	<include file="struts_links/oracle_links.xml"/>
-	<include file="struts_links/blog_links.xml"/>
-	<include file="struts_links/linux_links.xml"/>
+	<include file="struts_links/java-links.xml"/>
+	<include file="struts_links/python-links.xml"/>
+	<include file="struts_links/oracle-links.xml"/>
+	<include file="struts_links/java-black-book-blog-links.xml"/>
+	<include file="struts_links/linux-links.xml"/>
 </struts>	

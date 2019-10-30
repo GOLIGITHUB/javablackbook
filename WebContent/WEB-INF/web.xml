@@ -24,6 +24,13 @@
   </listener>
   <context-param id="struts_tiles">
     <param-name>org.apache.tiles.impl.BasicTilesContainer.DEFINITIONS_CONFIG</param-name>
-    <param-value>/WEB-INF/tiles.xml,/WEB-INF/python.xml,/WEB-INF/oracle.xml,/WEB-INF/allform.xml,/WEB-INF/blog.xml,/WEB-INF/linux.xml</param-value>
+    <param-value>
+    /WEB-INF/core-java-tiles.xml,
+    /WEB-INF/core-python-tiles.xml,
+    /WEB-INF/oracle-tiles.xml,
+    /WEB-INF/java-black-book-form-tiles.xml,
+    /WEB-INF/java-black-book-blog-tiles.xml,
+    /WEB-INF/linux-tiles.xml
+    </param-value>
   </context-param>
 </web-app>

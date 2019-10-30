@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+	
+	<struts>
+			<constant name="struts.devMode" value="true"/>
+				
+			
+			<package name="java" extends="struts-default" namespace="/java">
+			
+				<result-types>
+					<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+				</result-types>
+						
+				<action name="core-java-home-page">
+				<result name="success"  type="tiles">core-java-home-page</result>
+				</action>
+				<action name="java-begin">
+				<result name="success"  type="tiles">core-java-begin</result>
+				</action> 
+				<action name="java-implicit">
+				<result name="success"  type="tiles">core-java-implicit</result>
+				</action>
+				<action name="java-all-difference">
+				<result name="success"  type="tiles">core-java-all-difference</result>
+				</action>
+				<action name="java-main-method">
+				<result name="success"  type="tiles">core-java-main-method</result>
+				</action>
+				<action name="java-string">
+				<result name="success"  type="tiles">core-java-string</result>
+				</action>
+				<action name="java-class-and-object">
+				<result name="success"  type="tiles">core-java-class-and-object</result>
+				</action>
+				<action name="java-class">
+				<result name="success"  type="tiles">core-java-class</result>
+				</action>
+				<action name="java-variable">
+				<result name="success"  type="tiles">core-java-variable</result>
+				</action>
+				<action name="java-method">
+				<result name="success" type="tiles">core-java-method</result>
+				</action>
+				<action name="java-constructor">
+				<result name="success" type="tiles">core-java-constructor</result>
+				</action>
+				<action name="java-instance-block">
+				<result name="success" type="tiles">core-java-instance-block</result>
+				</action>
+				<action name="java-static-block">
+				<result name="success" type="tiles">core-java-static-block</result>
+				</action>
+				<action name="java-inheritance">
+				<result name="success" type="tiles">core-java-inheritance</result>
+				</action>
+				<action name="java-single-inheritance">
+				<result name="success" type="tiles">core-java-single-inheritance</result>
+				</action>
+				<action name="java-multi-level-inheritance">
+				<result name="success" type="tiles">core-java-multi-level-inheritance</result>
+				</action>
+				<action name="java-Hierarchical-inheritance">
+				<result name="success" type="tiles">core-java-Hierarchical-inheritance</result>
+				</action>
+				<action name="java-interface">
+				<result name="success" type="tiles">core-java-interface</result>
+				</action>
+				<action name="java-overloading">
+				<result name="success" type="tiles">core-java-overloading</result>
+				</action>
+				 <action name="java-overriding">
+				<result name="success" type="tiles">core-java-overriding</result>
+				</action>
+				<action name="java-exception">
+				<result name="success" type="tiles">core-java-exception</result>
+				</action>
+				<action name="java-multi-threading">
+				<result name="success" type="tiles">core-java-multi-threading</result>
+				</action>
+				 <action name="java-regex-expression">
+				<result name="success" type="tiles">core-java-regex-expression</result>
+				</action>
+				<action name="testing">
+				<result name="success" type="tiles">core_java_testing_purpose</result>
+				</action>
+				
+				
+		</package>
+</struts>

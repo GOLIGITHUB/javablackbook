@@ -16,7 +16,7 @@
 					<span class="tags"><a href="#">Design</a>, <a href="#">Blog</a></span>
 				</div>
 				<div class="entry-content">
-					<h5><strong><a href="/javablackbook/blog/question_one" target="_blank">blog subject</a></strong></h5>
+					<h5><strong><a href="/javablackbook/blog/blog-question-one" target="_blank">blog subject</a></strong></h5>
 					<!-- <p>
 						Soon &hellip;
 					</p> -->
@@ -35,7 +35,7 @@
 					<span class="tags"><a href="#">Design</a>, <a href="#">News</a></span>
 				</div>
 				<div class="entry-content">
-					<h5><strong><a href="/javablackbook/blog/question_two" target="_blank" >blog subject</a></strong></h5>
+					<h5><strong><a href="/javablackbook/blog/blog-question-two" target="_blank" >blog subject</a></strong></h5>
 					<!-- <p>
 						Soon &hellip;
 					</p> -->
@@ -54,7 +54,7 @@
 					<span class="tags"><a href="#">Design</a>, <a href="#">Tips</a></span>
 				</div>
 				<div class="entry-content">
-					<h5><strong><a href="/javablackbook/blog/question_three" target="_blank">blog subject</a></strong></h5>
+					<h5><strong><a href="/javablackbook/blog/blog-question-three" target="_blank">blog subject</a></strong></h5>
 					<!-- <p>
 						Soon &hellip;
 					</p> -->
@@ -73,7 +73,7 @@
 					<span class="tags"><a href="#">News</a>, <a href="#">Tutorial</a></span>
 				</div>
 				<div class="entry-content">
-					<h5><strong><a href="/javablackbook/blog/question_four" target="_blank">blog subject</a></strong></h5>
+					<h5><strong><a href="/javablackbook/blog/blog-question-four" target="_blank">blog subject</a></strong></h5>
 					<!-- <p>
 					 Soon &hellip;	
 					</p> -->
