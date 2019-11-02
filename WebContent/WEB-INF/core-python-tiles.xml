@@ -154,9 +154,9 @@
  		<put-attribute name="body" value="/python/python-multithreading.jsp"></put-attribute> 		
  	</definition>
  	
- 	<definition name="python-Numbers"  template="/LayoutManagerPython.jsp">
+ 	<definition name="python-Numbers-format"  template="/LayoutManagerPython.jsp">
  		<put-attribute name="title" value="Python Numbers"></put-attribute>
- 		<put-attribute name="body" value="/python/python-Numbers.jsp"></put-attribute> 		
+ 		<put-attribute name="body" value="/python/python-Numbers-format.jsp"></put-attribute> 		
  	</definition>
  	
  	<definition name="python-Dates"  template="/LayoutManagerPython.jsp">

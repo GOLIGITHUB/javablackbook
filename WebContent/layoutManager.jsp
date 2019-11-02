@@ -14,6 +14,10 @@
 <link rel="stylesheet" href="css/style.css" >
 <link rel="stylesheet" href="color/default.css" >
 <link rel="shortcut icon" href="img/favicon.ico">
+<!-- =======================================================
+    Author: Ashutosh Mishra
+    Date:19.02.2017
+======================================================= -->
 </head>
 <body>
 

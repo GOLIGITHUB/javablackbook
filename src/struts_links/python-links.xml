@@ -96,8 +96,8 @@
 	<action name="python-multithreading">
 	<result name="success" type="tiles">python-multithreading</result>
 	</action>
-	<action name="python-Numbers">
-	<result name="success" type="tiles">python-Numbers</result>
+	<action name="python-Numbers-format">
+	<result name="success" type="tiles">python-Numbers-format</result>
 	</action>
 	<action name="python-Dates">
 	<result name="success" type="tiles">python-Dates</result>

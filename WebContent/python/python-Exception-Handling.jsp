@@ -683,3 +683,9 @@ code start......
 ageForVoteError : Invalid age for vote
 Rest of code......
 </pre>
+<pre>
+TypeError : concat not possible
+ValueError : conversion
+NameError : name is not defined
+unboundLocalError 
+</pre>

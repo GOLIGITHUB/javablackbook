@@ -1,1 +1,0 @@
-<h1>Welcome Oracle Technology</h1>
