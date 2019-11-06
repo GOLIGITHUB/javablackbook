@@ -14,6 +14,7 @@
 	<li><a href="python-Function">Python Function</a></li>
 	<li><a href="python-Numbers-format">Python Numbers Format</a></li>
 	<li><a href="python-Class-and-Object">Python Class and Object</a></li>
+	<li><a href="python-Object-Class">Python Object class</a></li>
 	<li><a href="python-Method">Python Method</a></li>
 	<li><a href="python-String">Python String</a></li>
 	<li><a href="python-Inheritance">Python Inheritance</a></li>

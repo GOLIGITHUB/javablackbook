@@ -93,6 +93,11 @@
  		<put-attribute name="body" value="/python/python-Class-and-Object.jsp"></put-attribute> 		
  	</definition>
  	
+ 	<definition name="python-Object-Class"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python object Detail "></put-attribute>
+ 		<put-attribute name="body" value="/python/python-Object-Class.jsp"></put-attribute> 		
+ 	</definition>
+ 	
  	<definition name="python-Inheritance"  template="/LayoutManagerPython.jsp">
  		<put-attribute name="title" value="python Inheritance "></put-attribute>
  		<put-attribute name="body" value="/python/python-Inheritance.jsp"></put-attribute> 		

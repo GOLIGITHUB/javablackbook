@@ -39,6 +39,14 @@
  		<ol>
  			<li><a href="java-exception">Exception</a></li>
  		</ol>	
+ 	</li>
+ 	<li>
+ 		<a href="#"><b>JDBC</b></a>
+ 		<ol>
+ 			<li><a href="java-jdbc-statement">java jdbc Statement</a></li>
+ 			<li><a href="java-jdbc-PreparedStatement">java jdbc PreparedStatement</a></li>
+ 			<li><a href="java-jdbc-CallableStatement">java jdbc CallableStatement</a></li>
+ 		</ol>
  	</li>		
  	<li><b><a href="java-multi-threading">Multithreading</a></b></li>
  	<li><b><a href="java-regex-expression">Regex Expression</a></b></li>

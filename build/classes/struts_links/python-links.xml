@@ -59,6 +59,9 @@
 	</action>
 	<action name="python-Class-and-Object">
 	<result name="success"  type="tiles">python-Class-and-Object</result>
+	</action>
+	<action name="python-Object-Class">
+	<result name="success"  type="tiles">python-Object-Class</result>
 	</action>	
 	<action name="python-Inheritance">
 	<result name="success" type="tiles">python-Inheritance</result>

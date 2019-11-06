@@ -76,6 +76,18 @@
 				<action name="java-exception">
 				<result name="success" type="tiles">core-java-exception</result>
 				</action>
+				<action name="java-exception">
+				<result name="success" type="tiles">core-java-exception</result>
+				</action>
+				<action name="java-jdbc-statement">
+				<result name="success" type="tiles">java-jdbc-statement</result>
+				</action>
+				<action name="java-jdbc-PreparedStatement">
+				<result name="success" type="tiles">java-jdbc-PreparedStatement</result>
+				</action>
+				<action name="java-jdbc-CallableStatement">
+				<result name="success" type="tiles">java-jdbc-CallableStatement</result>
+				</action>
 				<action name="java-multi-threading">
 				<result name="success" type="tiles">core-java-multi-threading</result>
 				</action>

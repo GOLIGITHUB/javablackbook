@@ -110,6 +110,21 @@
  	</definition>
  	 <!-- 
  	 
+ 	 						JDBC
+ 	 -->
+ 	 <definition name="java-jdbc-statement"  template="/layoutManager.jsp">
+ 		<put-attribute name="title" value="java jdbc statement"></put-attribute>
+ 		<put-attribute name="body" value="/java/java-jdbc-statement.jsp"></put-attribute> 		
+ 	</definition>
+ 	<definition name="java-jdbc-PreparedStatement"  template="/layoutManager.jsp">
+ 		<put-attribute name="title" value="java jdbc PreparedStatement"></put-attribute>
+ 		<put-attribute name="body" value="/java/java-jdbc-PreparedStatement.jsp"></put-attribute> 		
+ 	</definition>
+ 	<definition name="java-jdbc-CallableStatement"  template="/layoutManager.jsp">
+ 		<put-attribute name="title" value="java jdbc CallableStatement"></put-attribute>
+ 		<put-attribute name="body" value="/java/java-jdbc-CallableStatement.jsp"></put-attribute> 		
+ 	</definition>
+ 	 <!-- 
  	 						MultiThreading
  	  -->
  	  <definition name="core-java-multi-threading"  template="/layoutManager.jsp">

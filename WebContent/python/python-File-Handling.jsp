@@ -13,7 +13,42 @@
 	<li>r : read mode</li>
 	<li>w : write mode</li>
 	<li>a : append mode</li>
-</ul>	
+</ul>
+		<table class="table">
+                <caption>Character Meaning</caption>
+                <tr class="success">
+                    <td>'r'</td>
+                    <td>open for reading (default)</td>
+                 </tr> 
+                 <tr>
+                    <td>'w'</td>
+                    <td>open for writing, truncating the file first</td>
+                 </tr>   
+                 <tr class="success">
+                    <td>'x'</td>
+                    <td>create a new file and open it for writing</td>
+                 </tr> 
+                 <tr>
+                    <td>'a'</td>
+                    <td>open for writing, appending to the end of the file if it exists</td>
+                 </tr> 
+                 <tr  class="success">
+                    <td>'b'</td>
+                    <td> binary mode</td>
+                 </tr> 
+                 <tr>
+                    <td>'t'</td>
+                    <td>text mode (default)</td>
+                 </tr>
+                 <tr class="success">
+                    <td>'+'</td>
+                    <td>open a disk file for updating (reading and writing)</td>
+                 </tr> 
+                 <tr>
+                    <td>'U'</td>
+                    <td>universal newline mode (deprecated)</td>
+                 </tr>  
+        </table>	
 <pre>
 1.open the file
 		open() function
