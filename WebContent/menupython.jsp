@@ -16,6 +16,8 @@
 	<li><a href="python-Class-and-Object">Python Class and Object</a></li>
 	<li><a href="python-Object-Class">Python Object class</a></li>
 	<li><a href="python-Method">Python Method</a></li>
+	<li><a href="python-Decorators">python Decorators</a></li>
+	<li><a href="python-Constructor">Python Constructor</a></li>
 	<li><a href="python-String">Python String</a></li>
 	<li><a href="python-Inheritance">Python Inheritance</a></li>
 	<li><a href="python-Super-Keyword">python Super</a></li>
@@ -31,5 +33,6 @@
 	<li><a href="python-multithreading">Python Multithreading</a></li>
 	<li><a href="python-Dates">Python Dates</a></li>
 	<li><a href="python-Time">python_Time</a></li>
+	<li><a href="python-Boto3-Aws">Python Boto3 AWS</a></li>
 	<li><b><a href="testing">Testing Link</a></b></li>
  </ol> 

@@ -81,8 +81,14 @@
  		<put-attribute name="title" value="Python method "></put-attribute>
  		<put-attribute name="body" value="/python/python-Method.jsp"></put-attribute> 		
  	</definition>
- 	
- 	
+ 	<definition name="python-Decorators"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python Decorators"></put-attribute>
+ 		<put-attribute name="body" value="/python/python-Decorators.jsp"></put-attribute> 		
+ 	</definition>
+ 	<definition name="python-Constructor"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="python Constructor "></put-attribute>
+ 		<put-attribute name="body" value="/python/python-Constructor.jsp"></put-attribute> 		
+ 	</definition>
  	<definition name="python-String"  template="/LayoutManagerPython.jsp">
  		<put-attribute name="title" value="Python String "></put-attribute>
  		<put-attribute name="body" value="/python/python-String.jsp"></put-attribute> 		
@@ -167,6 +173,11 @@
  	<definition name="python-Dates"  template="/LayoutManagerPython.jsp">
  		<put-attribute name="title" value="Python Dates"></put-attribute>
  		<put-attribute name="body" value="/python/python-Dates.jsp"></put-attribute> 		
+ 	</definition>
+ 	
+ 	<definition name="python-Boto3-Aws"  template="/LayoutManagerPython.jsp">
+ 		<put-attribute name="title" value="Python Boto3 AWS"></put-attribute>
+ 		<put-attribute name="body" value="/python/python-Boto3-Aws.jsp"></put-attribute> 		
  	</definition>
  	
  	<definition name="python-Time"  template="/LayoutManagerPython.jsp">

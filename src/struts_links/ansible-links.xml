@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+	
+	<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="ansible" extends="struts-default" namespace="/ansible">
+	
+	<result-types>
+		<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+	</result-types>
+
+	<action name="ansible-Home-Page">
+	<result name="success"  type="tiles">ansible-Home-Page</result>
+	</action>
+	
+	<action name="ansible-Basic">
+	<result name="success"  type="tiles">ansible-Basic</result>
+	</action>
+	
+	<action name="ansible-Installation">
+	<result name="success"  type="tiles">ansible-Installation</result>
+	</action>
+	
+	<action name="ansible-Inventory">
+	<result name="success"  type="tiles">ansible-Inventory</result>
+	</action>
+	
+	<action name="ansible-Playbook">
+	<result name="success"  type="tiles">ansible-Playbook</result>
+	</action>
+	
+	<action name="ansible-Loop">
+	<result name="success"  type="tiles">ansible-Loop</result>
+	</action>
+	
+	<action name="ansible-Condition">
+	<result name="success"  type="tiles">ansible-Condition</result>
+	</action>
+	
+	<action name="ansible-Jinja2-Template">
+	<result name="success"  type="tiles">ansible-Jinja2-Template</result>
+	</action>
+	
+	<action name="ansible-Jinja2-Template">
+	<result name="success"  type="tiles">ansible-Jinja2-Template</result>
+	</action>
+	
+	<action name="ansible-Delegate">
+	<result name="success"  type="tiles">ansible-Delegate</result>
+	</action>
+		
+	<action name="testing">
+	<result name="success"  type="tiles">testing</result>
+	</action>
+				
+</package>
+</struts>

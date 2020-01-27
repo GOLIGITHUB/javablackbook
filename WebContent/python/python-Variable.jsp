@@ -1,4 +1,96 @@
-<h3>In Python Variable are three type</h3>
+<h1>A different way to define a variable in python</h1>
+<pre>
+age=10
+name="ashu"
+print(age," ",name)
+age,name=25,"aman"
+print(age," ",name)
+a=b=c=100
+print(a," ",b," ",c)
+</pre>
+<pre>
+10   ashu
+25   aman
+100   100   100
+</pre>
+<h1>Python concatenation </h1>
+<p><strong>Python Concat only similar type of data.If in python add two different types of data then show error</strong></p>
+<pre>
+print(10+20)
+print("ashu"+"goli")
+print(True+True)
+print(False+False)
+print(15.5+15.6)
+#print("aman"+12.8) #TypeError: can only concatenate str (not "float") to str
+print(100+True+False)
+print(100+15.6)
+print(12.7+True)
+</pre>
+
+<pre>
+30
+ashugoli
+2
+0
+31.1
+101
+115.6
+13.7
+</pre>
+<h3>Resign variable in python is possible but other languages it not possible</h3>
+<h3>Two variable swappings program in python</h3>
+<pre>
+a,b=10,20
+print("Before Swapping")
+print("a : ",a," b: ",b)
+a,b=b,a
+print("After Swapping")
+print("a : ",a," b: ",b)
+</pre>
+<pre>
+Before Swapping
+a :  10  b:  20
+After Swapping
+a :  20  b:  10
+</pre>
+<h3>How to delete a varible in python</h3>
+<p><strong>in python delete a variable using a del keyword. if we delete a variable then release the memory</strong></p>
+<pre>
+a=100
+print(a)
+del a
+print(a)
+</pre>
+<pre>
+100
+Traceback (most recent call last):
+  File "Key.py", line 4, in <module>
+    print(a)
+NameError: name 'a' is not defined
+</pre>
+<h3>Different way to print data in python</h3>
+<pre>
+stdId,stdName,stdresult=1001,"Ashu",True
+print(stdId,stdName,stdresult)
+print(stdId)
+print(stdName)
+print(stdresult)
+print("Student ID: ",stdId)
+print("Student Name",stdName)
+print("Student Result",stdresult)
+print("Student ID: ",stdId," Student Name",stdName," Student Result",stdresult)
+</pre>
+<pre>
+1001 Ashu True
+1001
+Ashu
+True
+Student ID:  1001
+Student Name Ashu
+Student Result True
+Student ID:  1001  Student Name Ashu  Student Result True
+</pre>
+<h1>In Python Variable are three type</h1>
 <ul>	
 		<li> Local Variable</li>
 		<li> Class Variable</li>

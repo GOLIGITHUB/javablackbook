@@ -17,6 +17,7 @@
 					<li><a title="Core Java" href="/javablackbook/java/core-java-home-page">Java</a></li> 
 					<li><a title="Python" href="/javablackbook/python/Core-And-Advance-Python-Home-Page">Python</a></li>
 					<li><a title="Linux" href="/javablackbook/linux/linux-home-page">Linux</a></li>
+					<li><a title="ansible" href="/javablackbook/ansible/ansible-Home-Page">Ansible</a></li>
 					<li><a title="Blog"  id="blog" href="/javablackbook/java-black-book-blog">Blog</a></li>
 				</ul>
 			</nav>

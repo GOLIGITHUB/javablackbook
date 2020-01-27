@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+       
+<tiles-definitions>
+       
+ 	<definition name="ansible-Home-Page"  template="/LayoutManagerAnsible.jsp">
+ 		<put-attribute name="title" value="Ansible Home Page"></put-attribute>
+ 		<put-attribute name="body" value="/ansible/ansible-Home-Page.jsp"></put-attribute> 
+ 	</definition>
+ 	
+ 	<definition name="ansible-Basic"  template="/LayoutManagerAnsible.jsp">
+ 		<put-attribute name="title" value="About Ansible"></put-attribute>
+ 		<put-attribute name="body" value="/ansible/ansible-Basic.jsp"></put-attribute> 
+ 	</definition>
+ 	<definition name="ansible-Installation"  template="/LayoutManagerAnsible.jsp">
+ 		<put-attribute name="title" value="Ansible Installation"></put-attribute>
+ 		<put-attribute name="body" value="/ansible/ansible-Installation.jsp"></put-attribute> 
+ 	</definition>
+ 	<definition name="ansible-Inventory"  template="/LayoutManagerAnsible.jsp">
+ 		<put-attribute name="title" value="Ansible Inventory"></put-attribute>
+ 		<put-attribute name="body" value="/ansible/ansible-Inventory.jsp"></put-attribute> 
+ 	</definition>
+ 	<definition name="ansible-Playbook"  template="/LayoutManagerAnsible.jsp">
+ 		<put-attribute name="title" value="Ansible Playbook"></put-attribute>
+ 		<put-attribute name="body" value="/ansible/ansible-Playbook.jsp"></put-attribute> 
+ 	</definition>
+ 	<definition name="ansible-Loop"  template="/LayoutManagerAnsible.jsp">
+ 		<put-attribute name="title" value="Ansible Loop"></put-attribute>
+ 		<put-attribute name="body" value="/ansible/ansible-Loop.jsp"></put-attribute> 
+ 	</definition>
+ 	<definition name="ansible-Condition"  template="/LayoutManagerAnsible.jsp">
+ 		<put-attribute name="title" value="Ansible Condition"></put-attribute>
+ 		<put-attribute name="body" value="/ansible/ansible-Condition.jsp"></put-attribute> 
+ 	</definition>
+ 	<definition name="ansible-Jinja2-Template"  template="/LayoutManagerAnsible.jsp">
+ 		<put-attribute name="title" value="Ansible Jinja2 Template"></put-attribute>
+ 		<put-attribute name="body" value="/ansible/ansible-Jinja2-Template.jsp"></put-attribute> 
+ 	</definition>
+ 	<definition name="ansible-Delegate"  template="/LayoutManagerAnsible.jsp">
+ 		<put-attribute name="title" value="Ansible Delegatee"></put-attribute>
+ 		<put-attribute name="body" value="/ansible/ansible-Delegate.jsp"></put-attribute> 
+ 	</definition> 	
+ 	<definition name="testing"  template="/LayoutManagerLinux.jsp">
+ 		<put-attribute name="title" value="testing"></put-attribute>
+ 		<put-attribute name="body" value="/ansible/testing.jsp"></put-attribute> 
+ 	</definition>
+ 	
+ 	
+ </tiles-definitions>

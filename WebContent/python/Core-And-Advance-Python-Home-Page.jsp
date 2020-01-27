@@ -1,16 +1,29 @@
 <p><strong>
-python is programming high level language and journal purpose language to define different types of application.
-it is develope by gudo van rossum in 1990.
-</strong></p>
-<h3>Python feature</h3>
+Python is programming high level language and journal purpose language 
+to define different types of application.
+it is develop by gudo van rossum in 1990.
+</strong><p>
+
+<p><strong> First appeared:	   1990(Python)</strong></p>
+<p><strong> First appeared:    1995(Java)</strong></p>
+
+<h1>Some philosophy point for Python</h1>
 <ul>
-	<li>python-opern source</li>
-	<li>python-platfrom indepedent</li>
-	<li>python-simple language</li>
-	<li>python-opern source</li>
-	<li>python-functional program language</li>
-	<li>python-Object Orented programing system language</li>
-	<li>python-modular programming language</li>
+	<li>Beautiful is better than ugly.</li>
+	<li>Explicit is better than implicit.</li>
+	<li>Simple is better than complex.</li>
+	<li>Complex is better than complicated.</li>
+	<li>Readability counts.</li>
+</ul>
+
+<h3>Python Feature</h3>
+<ul>
+	<li>Python Open Source</li>
+	<li>Python Platfrom Indepedent</li>
+	<li>Python simple language</li>
+	<li>python Functional Approach Program Language</li>
+	<li>python Object Orented Programing System Language</li>
+	<li>python Modular Programming Language</li>
 </ul>
 <h3>Where is use python ?</h3>
 <ul>
@@ -28,41 +41,5 @@ it is develope by gudo van rossum in 1990.
 	<li>standalone</li>
 	<li>machine learing</li>
 	<li>AI</li>
-	
 </ul>
-<p><strong>IDLE(integrated development and learning environment)</strong></p>
-5 way to execute python program
-for online = https://repl.it/languages/python3(3.7.3)
-pycharm
- 
- two way to comment in python
- 1-single line comment
- 	#keep doing
- 2-multi line comment
-    """
-        it for multi line comment
-    """
-    or
-    '''
-    	it for multi line comment
-    '''		
 
-journal data type in python 3
-Number : int float
-String : str
-Boolen : bool(False,True)
-
-formating data:
-
- % =int %d,float %g %f,string %s
- print("eid=%d","ename=%s","Emp esal=%g"%(eid,ename,esal))
- print("eid={}","ename={}","esal={}".format(eid,ename,esal))
- print("eid={0}","ename={1}","esal={2}".format(eid,ename,esal))
-
-<pre>
-pip --version
-python --version
-pip install mysql-connector-python==8.0.16
-pip uninstall mysql-connector-python==8.0.16
-python -m pip install --upgrade pip
-</pre>

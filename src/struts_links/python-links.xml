@@ -54,6 +54,12 @@
 	<action name="python-Method">
 	<result name="success"  type="tiles">python-Method</result>
 	</action>
+	<action name="python-Decorators">
+	<result name="success"  type="tiles">python-Decorators</result>
+	</action>
+	<action name="python-Constructor">
+	<result name="success"  type="tiles">python-Constructor</result>
+	</action>
 	<action name="python-String">
 	<result name="success"  type="tiles">python-String</result>
 	</action>
@@ -107,6 +113,9 @@
 	</action>
 	<action name="python-Time">
 	<result name="success" type="tiles">python-Time</result>
+	</action>
+	<action name="python-Boto3-Aws">
+	<result name="success" type="tiles">python-Boto3-Aws</result>
 	</action>		
 	<action name="testing">
 	<result name="success" type="tiles">python_testing_purpose</result>

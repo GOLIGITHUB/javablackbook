@@ -1,128 +1,306 @@
-<p><h2>if and else</h2></p>
-<p><strong>elseif(conditional)</strong>
-	syntax python change into
-	<strong>elif(conditional)</strong></p>
-<pre id="codepre"><code>
-a=99
-b=75
-c=60
-print("A:",a,"B:",b,"C:",c)
-if (a>b):
- print("a Greater then b")
-elif(b>c):
- print("b Greater then c")
-else:
- print("c smaller then a,b")
-</code></pre>
-<pre id="outputpre"><strong>Output:</strong>
-A: 99 B: 75 C: 60
-a Greater then b
-</pre>
-<p><h2>Loop</h2></p>
-<p>A loop statement allows us to execute a statement or group of statements multiple times.</p>
-<ol>
-	<li>For</li>
-	<li>While</li>
-	<li>Nested</li>
+<h1>In python 3 types of statement</h1>
+<ol tabindex="number">
+	<li>Control Statement</li>
+	<li>Iteration Statement</li>
+	<li>Jump Statement</li>
 </ol>
-<p><h3>While</h3></p>
-<p>Repeats a statement or group of statements while a given condition is true.
-it the condition before executing the loop body.</p>
-<pre><strong>Syntax:</strong>
-	<strong>iterating_var</strong>
-	 <strong>while(conditional):</strong>
-	 			statements
+<table class="table">
+	<tr class="success">
+	<td>Control Statement</td>
+	<td>Iteration Statement</td>
+	<td>Jump Statement</td>
+	</tr>
+	<tr>
+	<td>if,if-esle,elif</td>
+	<td>for,while</td>
+	<td>break,continue</td>
+	</tr>
+</table>
+<p><strong>CASE 1:</strong></p>
+<pre>
+def control_Statement_1(num):
+	if num>0:
+		print("Only True Statement")
+	else:
+		print("Only False Statement")
+num=int(input("Enter The Number: "))
+control_Statement_1(num)
 </pre>
-<pre id="codepre">
-	<code>
-		count=5
-while (count>0):
-	print("Hello...")
-	count=count-1
-print("Good Bye!")
-	</code>
+<pre>
+Enter The Number: 0
+Only False Statement
 </pre>
-<pre id="outputpre"><strong>Output:</strong>
-Hello...
-Hello...
-Hello...
-Hello...
-Hello...
-Good Bye!	
+<p><strong>CASE 2:</strong></p>
+<pre>
+def control_Statement_2():
+	if True:
+		print("Only True Statement")
+	else:
+		print("Only False Statement")
+control_Statement_2()
 </pre>
-<p><h3>for</h3></p>
-<p>Repeats a statement or group of statements while a given condition is true.it tests the condition before executing the loop body.</p>
-<pre><strong>Syntax:</strong>
-	<strong>for</strong> iterating_var <strong>in</strong> sequence<strong>:</strong>
+<pre>
+Only True Statement
 </pre>
-<pre id="codepre"><code>
-for x in range(2):
-	print(x)
-
-for x in range(1,2):
-	print(x)	
-
-for x in range(2,12,2):
-	print(x)	
-</code></pre>
-<pre id="outputpre"><strong>Output:</strong>
+<p><strong>CASE 3:</strong></p>
+<pre>
+def control_Statement_3():
+	if 0:
+		print("Only True Statement")
+	else:
+		print("Only False Statement")
+control_Statement_3()
+</pre>
+<pre>
+Only False Statement
+</pre>
+<p><strong>CASE 4:</strong></p>
+<pre>
+def control_Statement_4():
+	print("Only True Statement") if 1 else print("Only False Statement")
+control_Statement_4()
+</pre>
+<pre>
+Only True Statement
+</pre>
+<p><strong>CASE 5:</strong></p>
+<pre>
+def control_Statement_5():
+	print("Normal Statement"),print("Only True Statement") if 1 else print("Only False Statement"),print("Normal Statement")
+control_Statement_5()
+</pre>
+<pre>
+Normal Statement
+Only True Statement
+Normal Statement
+</pre>
+<p><strong>CASE 6:</strong></p>
+<pre>
+def control_Statement_6():
+	{print("Normal Statement"),print("Only True Statement")} if 1 else {print("Only False Statement"),print("Normal Statement")}
+control_Statement_6()
+</pre>
+<pre>
+Normal Statement
+Only True Statement
+</pre>
+<p><strong>CASE 7:</strong></p>
+<pre>
+def control_Statement_7(num):
+	if(num==100):
+		print("A")
+	elif(num==60):
+		print("B")
+	elif(num==40):
+		print("C")
+	else:
+		print("else block in optional")
+num=int(input("Enter The number:"))					
+control_Statement_7(num)
+</pre>
+<pre>
+Enter The number:26
+else block in optional
+</pre>
+<h2>Iteration Statement</h2>
+<table class="table">
+	<tr class="success">
+		<td>range(10)</td>
+		<td>range(1,10)</td>
+		<td>range(1,10,2)</td>
+		<td>range(10,1,-2)</td>
+		<td>range(-10,-1)</td>
+		<td>range(-10,-1,-2)</td>
+		<td>range(-1,-10,-2)</td>
+	</tr>
+</table>
+<h3>for loop systax</h3>
+<pre>
+for temp-var in iteration-data:
+	print(temp-var)
+</pre>
+<p><strong>CASE 1:</strong></p>
+<pre>
+def iteration_Statement_1(num=10):
+		for i in range(num):
+			print(i)
+iteration_Statement_1()
+</pre>
+<pre>
 0
 1
-1
 2
+3
 4
+5
 6
+7
 8
-10	
+9
 </pre>
-<p><h2>Nested Loops</h2></p>
-<p>python programming language allows use of one loop inside another loop.This is called Nested Loop.</p>
+<p><strong>CASE 2:</strong></p>
+<pre>
+def iteration_Statement_2(begin=1,ending=10):
+		for i in range(begin,ending):
+			print(i)
+iteration_Statement_2()
 
-<p><h3>For</h3></p>
+</pre>
 <pre>
-<strong>for</strong>interating_var <strong>in</strong> sequence<strong>:</strong>
-	<strong>for</strong>interating_var <strong>in</strong> sequence<strong>:</strong>
-	statements
-statements	
+1
+2
+3
+4
+5
+6
+7
+8
+9
 </pre>
-<pre id="codepre"><code>
-for x in range(3):
-	for x in range(1,3):
-		print(x)
-print(x)	
-</code></pre>
-<pre  id="outputpre"><strong>Output:</strong>
-1
-2
-1
-2
-1
-2
-2	
-</pre>
-<p><h3>while</h3></p>
+<p><strong>CASE 3:</strong></p>
 <pre>
-<strong>while</strong> expression:
-	<strong>while</strong> expression:
-		statements
-statements		
+def iteration_Statement_3(begin=1,ending=10,increment=2):
+		for i in range(begin,ending,increment):
+			print(i)
+iteration_Statement_3()
 </pre>
-<pre id="codepre">
-i=0
-j=0
-while (i<3):
-	while (j<4):
-		print("inner loop:",j)
-		j=j+1
-	i=i+1		
-print("outer loop:",i)
-print("say bye!")
+<pre>
+1
+3
+5
+7
+9
 </pre>
-<pre  id="outputpre"><strong>Output:</strong>
-inner loop: 0
-inner loop: 1
-inner loop: 2
-inner loop: 3
-outer loop: 3
-say bye!	
+<p><strong>CASE 4:</strong></p>
+<pre>
+def iteration_Statement_4(begin=10,ending=1,increment=-2):
+		for i in range(begin,ending,increment):
+			print(i)
+iteration_Statement_4()
+</pre>
+<pre>
+10
+8
+6
+4
+2
+</pre>
+<p><strong>CASE 5:</strong></p>
+<pre>
+def iteration_Statement_5(begin=-10,ending=-1):
+		for i in range(begin,ending):
+			print(i)
+iteration_Statement_5()
+</pre>
+<pre>
+-10
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+</pre>
+<p><strong>CASE 6:</strong></p>
+<pre>
+def iteration_Statement_6(begin=-10,ending=-1,increment=-2):
+		for i in range(begin,ending,increment):
+			print(i)
+iteration_Statement_6()
+</pre>
+<pre>
+NOTE: No Output
+</pre>
+<p><strong>CASE 7:</strong></p>
+<pre>
+def iteration_Statement_7(begin=-1,ending=-10,increment=-2):
+		for i in range(begin,ending,increment):
+			print(i)
+iteration_Statement_7()
+</pre>
+<pre>
+-1
+-3
+-5
+-7
+-9
+</pre>
+<p><strong>CASE 8:</strong> for loop with else block</p>
+<p><strong>NOTE 1:</strong> if the for loop execute normal then else block executed</p>
+<p><strong>NOTE 2:</strong> if we use break statement in for loop then else block not executed</p>
+<p><strong>NOTE 3:</strong> if in for loop exception raised the else block not executed</p>
+<p><strong>NOTE 4:</strong> if we use os or subprocess module function _exit(0) then else block not executed</p>
+<pre>
+def iteration_Statement_8(begin=-10,ending=-1):
+		for i in range(begin,ending):
+			#break
+			print(i)
+		else:
+			print("execute normal")	
+iteration_Statement_8()
+</pre>
+<pre>
+-10
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+execute normal
+</pre>
+<p><strong>CASE 9:</strong> for loop with else block and break statement</p>
+<pre>
+def iteration_Statement_9(begin=-10,ending=-1):
+		for i in range(begin,ending):
+			print(i)
+			break
+		else:
+			print("execute normal")	
+iteration_Statement_9()
+</pre>
+<pre>
+-10
+</pre>
+<p><strong>CASE 10:</strong> if in for loop exception raised the else block not executed</p>
+<pre>
+def iteration_Statement_10(begin=-10,ending=-1):
+		for i in range(begin,ending):
+			print(i)
+			print(10/0)
+		else:
+			print("execute normal")	
+iteration_Statement_10()
+</pre>
+<pre>
+-10
+Traceback (most recent call last):
+  File "Key.py", line 7, in &lt;module&gt;
+    iteration_Statement_10()
+  File "Key.py", line 4, in iteration_Statement_10
+    print(10/0)
+ZeroDivisionError: division by zero
+</pre>
+<p><strong>CASE 11:</strong> if we use os or subprocess module function _exit(0) then else block not executed</p>
+<pre>
+import os
+def iteration_Statement_11(begin=-10,ending=-1):
+		for i in range(begin,ending):
+			print(i)
+			os._exit(0)
+		else:
+			print("execute normal")	
+iteration_Statement_11()
+</pre>
+<pre>
+-10
+</pre>
+<h3>while loop systax</h3>
+<pre>
+for temp-var in iteration-data:
+	print(temp-var)
 </pre>

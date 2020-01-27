@@ -38,4 +38,5 @@
 	<include file="struts_links/oracle-links.xml"/>
 	<include file="struts_links/java-black-book-blog-links.xml"/>
 	<include file="struts_links/linux-links.xml"/>
+	<include file="struts_links/ansible-links.xml"/>
 </struts>	

@@ -30,7 +30,8 @@
     /WEB-INF/oracle-tiles.xml,
     /WEB-INF/java-black-book-form-tiles.xml,
     /WEB-INF/java-black-book-blog-tiles.xml,
-    /WEB-INF/linux-tiles.xml
+    /WEB-INF/linux-tiles.xml,
+    /WEB-INF/ansible-tiles.xml
     </param-value>
   </context-param>
 </web-app>
