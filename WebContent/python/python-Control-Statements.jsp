@@ -301,6 +301,100 @@ iteration_Statement_11()
 </pre>
 <h3>while loop systax</h3>
 <pre>
-for temp-var in iteration-data:
-	print(temp-var)
+initialized 
+while condition:
+	//write logic
+	increment and decrement
+</pre>
+<pre>
+def iteration_Statement_1(num):
+	while num > 0:
+		print(num)
+		num=num-1
+iteration_Statement_1(10)
+</pre>
+<pre>
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+</pre> 
+<p><strong>CASE 1:</strong> while loop with else block</p>
+<p><strong>NOTE 1:</strong> if the while loop execute normal then else block executed</p>
+<p><strong>NOTE 2:</strong> if we use break statement in while loop then else block not executed</p>
+<p><strong>NOTE 3:</strong> if in for while exception raised the else block not executed</p>
+<p><strong>NOTE 4:</strong> if we use os or subprocess module function _exit(0) then else block not executed</p>
+<pre>
+def iteration_Statement_2(num):
+	while num > 0:
+		print(num)
+		num=num-1
+	else:
+		print("normal execute")	
+iteration_Statement_2(10)
+</pre>
+<pre>
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+normal execute
+</pre>
+<p><strong>CASE 2:</strong>if we use break statement in while loop then else block not executed</p>
+<pre>
+def iteration_Statement_3(num):
+	while num > 0:
+		print(num)
+		break
+	else:
+		print("normal execute")	
+iteration_Statement_3(10)			
+</pre>
+<pre>
+10
+</pre>
+<p><strong>CASE 3:</strong>if in for while exception raised the else block not executed</p>
+<pre>
+def iteration_Statement_4(num):
+	while num > 0:
+		print(num)
+		print(num/0)
+	else:
+		print("normal execute")	
+iteration_Statement_4(10)	
+</pre>
+<pre>
+10
+Traceback (most recent call last):
+  File "Key.py", line 7, in &lt;module&gt;
+    iteration_Statement_4(10)
+  File "Key.py", line 4, in iteration_Statement_4
+    print(num/0)
+ZeroDivisionError: division by zero
+</pre>
+<p><strong>CASE 4:</strong>if we use os or subprocess module function _exit(0) then else block not executed</p>
+<pre>
+import os
+def iteration_Statement_6(num):
+	while num > 0:
+		print(num)
+		os._exit(0)
+	else:
+		print("normal execute")	
+iteration_Statement_6(10)	
+</pre>
+<pre>
+10
 </pre>

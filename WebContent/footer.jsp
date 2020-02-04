@@ -1,7 +1,6 @@
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>  
 <footer>
-<div class="container">
 	<div class="row">
 		<div class="span6 offset3">
 			<ul class="social-networks">
@@ -18,8 +17,6 @@
 			</p>
 		</div>
 	</div>
-</div>
-<!-- ./container -->
 </footer>
 <%-- <%
 		try{

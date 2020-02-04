@@ -33,55 +33,55 @@
 </table>
 <h3>In Python Binary Number System</h3>
 <p>Binary Number System use for digital Signal</p>
-<pre>
+<pre id="codepre">
 def getBinaryValue():
 	a=0b101010
 	b=0B111111
 	print(a," ",b)
 getBinaryValue()
 </pre>
-<pre>
+<pre id="outputpre">
 42   63
 </pre>
 <h3>In Python Decimal Number System</h3>
-<pre>
+<pre id="codepre">
 def getDecimalValue():
 	a=1234
 	b=4321
 	print(a," ",b)
 getDecimalValue()
 </pre>
-<pre>
+<pre id="outputpre">
 1234   4321
 </pre>
 <h3>In Python Octal Number System</h3>
-<pre>
+<pre id="codepre">
 def getOctalValue():
 	a=0o123
 	b=0O321
 	print(a," ",b)
 getOctalValue()
 </pre>
-<pre>
+<pre id="outputpre">
 83   209
 </pre>
 <h3>In Python Hexa-decimal Number System</h3>
-<pre>
+<pre id="codepre">
 def getHexadecimalValue():
 	a=0x1a2b3f
 	b=0X3a2d1e
 	print(a," ",b)
 getHexadecimalValue()	
 </pre>
-<pre>1715007   3812638</pre>
+<pre id="outputpre">1715007   3812638</pre>
 <h3>In python Get ASCII Value using ord() function</h3>
-<pre>
+<pre id="codepre">
 def getAnyASCIIValue():
 	value=input("Enter any value and get ASCII value : ")
 	print(ord(value))
 getAnyASCIIValue()
 </pre>
-<pre>
+<pre id="outputpre">
 Enter any value and get ASCII value : ~
 126
 Enter any value and get ASCII value : @
@@ -92,35 +92,35 @@ Enter any value and get ASCII value : A
 65
 </pre>
 <h3>In python Get Binary Value using bin() function</h3>
-<pre>
+<pre id="codepre">
 def getInBinaryFrom():
 	value=int(input("Enter any value and get Binary value : "))
 	print(bin(value))
 getInBinaryFrom()
 </pre>
-<pre>
+<pre id="outputpre">
 Enter any value and get Binary value : 12345
 0b11000000111001
 </pre>
 <h3>In python Get Octal Value using oct() function</h3>
-<pre>
+<pre id="codepre">
 def getInOctalFrom():
 	value=int(input("Enter any value and get Binary value : "))
 	print(oct(value))
 getInOctalFrom()
 </pre>
-<pre>
+<pre id="outputpre">
 Enter any value and get Binary value : 123456
 0o361100
 </pre>
 <h3>In python Get Hexadecimal Value using oct() function</h3>
-<pre>
+<pre id="codepre">
 def getInHexadecimalFrom():
 	value=int(input("Enter any value and get Hexadecimal value : "))
 	print(hex(value))
 getInHexadecimalFrom()	
 </pre>
-<pre>
+<pre id="outputpre">
 Enter any value and get Hexadecimal value : 123
 0x7b
 </pre>

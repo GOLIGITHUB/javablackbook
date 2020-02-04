@@ -26,7 +26,7 @@
 <h3><tiles:getAsString name="title"/></h3>
 <hr>
 <jsp:include page="menulinux.jsp"/> 
-<div class="container" style="width: 839px;">
+<div class="container" style="width:728px">
 	<tiles:insertAttribute name="body"/>
 </div>
 <jsp:include page="footer.jsp"/>

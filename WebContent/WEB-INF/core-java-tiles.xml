@@ -5,7 +5,7 @@
         
  <tiles-definitions>
  		
- 	<definition name="core_java_testing_purpose"  template="/layoutManager.jsp">
+ 	<definition name="core_java_testing_purpose"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Java Testing Purpose "></put-attribute>
  		<put-attribute name="body" value="/java/Testing.jsp"></put-attribute> 		
  	</definition>
@@ -15,36 +15,36 @@
 		<put-attribute name="body"   value="/index.jsp"/>
 	</definition>
 	
- 	<definition name="core-java-home-page" template="/layoutManager.jsp">
+ 	<definition name="core-java-home-page" template="/layoutManagerJava.jsp">
 		<put-attribute name="title"  value="Core Java Home Page" />
 		<put-attribute name="body"   value="/java/core-java-home-page.jsp"/>
 	</definition>
 
-	 <definition name="core-java-begin"  template="/layoutManager.jsp">
+	 <definition name="core-java-begin"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Java Begin"></put-attribute>
  		<put-attribute name="body" value="/java/java-begin.jsp"></put-attribute> 		
  	</definition>	
-	<definition name="core-java-implicit"  template="/layoutManager.jsp">
+	<definition name="core-java-implicit"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="What is implicit in java ?"></put-attribute>
  		<put-attribute name="body" value="/java/java-implicit.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-all-difference"  template="/layoutManager.jsp">
+ 	<definition name="core-java-all-difference"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="core java all differences"></put-attribute>
  		<put-attribute name="body" value="/java/java-all-difference.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-main-method"  template="/layoutManager.jsp">
+ 	<definition name="core-java-main-method"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="core_java_mainmethod"></put-attribute>
  		<put-attribute name="body" value="/java/java-main-method.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-string"  template="/layoutManager.jsp">
+ 	<definition name="core-java-string"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="core_java_string"></put-attribute>
  		<put-attribute name="body" value="/java/java-string.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-class-and-object"  template="/layoutManager.jsp">
+ 	<definition name="core-java-class-and-object"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Object Oriented Programming System"></put-attribute>
  		<put-attribute name="body" value="/java/java-class-and-object.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-class"  template="/layoutManager.jsp">
+ 	<definition name="core-java-class"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="core java class"></put-attribute>
  		<put-attribute name="body" value="/java/java-class.jsp"></put-attribute> 		
  	</definition>
@@ -52,59 +52,59 @@
  	
  		
 	 -->
-	<definition name="core-java-variable"  template="/layoutManager.jsp">
+	<definition name="core-java-variable"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="variable"></put-attribute>
  		<put-attribute name="body" value="/java/java-variable.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-method"  template="/layoutManager.jsp">
+ 	<definition name="core-java-method"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="method"></put-attribute>
  		<put-attribute name="body" value="/java/java-method.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-constructor"  template="/layoutManager.jsp">
+ 	<definition name="core-java-constructor"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="constructor"></put-attribute>
  		<put-attribute name="body" value="/java/java-constructor.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-instance-block"  template="/layoutManager.jsp">
+ 	<definition name="core-java-instance-block"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Instance Block"></put-attribute>
  		<put-attribute name="body" value="/java/java-instance-block.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-static-block"  template="/layoutManager.jsp">
+ 	<definition name="core-java-static-block"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Static Block"></put-attribute>
  		<put-attribute name="body" value="/java/java-static-block.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-inheritance"  template="/layoutManager.jsp">
+ 	<definition name="core-java-inheritance"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Inheritance Home"></put-attribute>
  		<put-attribute name="body" value="/java/java-inheritance.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-single-inheritance"  template="/layoutManager.jsp">
+ 	<definition name="core-java-single-inheritance"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Single Inheritance"></put-attribute>
  		<put-attribute name="body" value="/java/java-single-inheritance.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-multi-level-inheritance"  template="/layoutManager.jsp">
+ 	<definition name="core-java-multi-level-inheritance"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Multilevel Inheritance"></put-attribute>
  		<put-attribute name="body" value="/java/java-multi-level-inheritance.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-Hierarchical-inheritance"  template="/layoutManager.jsp">
+ 	<definition name="core-java-Hierarchical-inheritance"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Hierarchical Inheritance"></put-attribute>
  		<put-attribute name="body" value="/java/java-Hierarchical-inheritance.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-interface"  template="/layoutManager.jsp">
+ 	<definition name="core-java-interface"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Interface"></put-attribute>
  		<put-attribute name="body" value="/java/java-interface.jsp"></put-attribute> 		
  	</definition>
  	
- 	<definition name="core-java-overloading"  template="/layoutManager.jsp">
+ 	<definition name="core-java-overloading"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Overloading"></put-attribute>
  		<put-attribute name="body" value="/java/java-overloading.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="core-java-overriding"  template="/layoutManager.jsp">
+ 	<definition name="core-java-overriding"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Overriding"></put-attribute>
  		<put-attribute name="body" value="/java/java-overriding.jsp"></put-attribute> 		
  	</definition>
  	<!-- 
  							Exception
  	 -->
- 	 <definition name="core-java-exception"  template="/layoutManager.jsp">
+ 	 <definition name="core-java-exception"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Exception"></put-attribute>
  		<put-attribute name="body" value="/java/java-exception.jsp"></put-attribute> 		
  	</definition>
@@ -112,29 +112,29 @@
  	 
  	 						JDBC
  	 -->
- 	 <definition name="java-jdbc-statement"  template="/layoutManager.jsp">
+ 	 <definition name="java-jdbc-statement"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="java jdbc statement"></put-attribute>
  		<put-attribute name="body" value="/java/java-jdbc-statement.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="java-jdbc-PreparedStatement"  template="/layoutManager.jsp">
+ 	<definition name="java-jdbc-PreparedStatement"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="java jdbc PreparedStatement"></put-attribute>
  		<put-attribute name="body" value="/java/java-jdbc-PreparedStatement.jsp"></put-attribute> 		
  	</definition>
- 	<definition name="java-jdbc-CallableStatement"  template="/layoutManager.jsp">
+ 	<definition name="java-jdbc-CallableStatement"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="java jdbc CallableStatement"></put-attribute>
  		<put-attribute name="body" value="/java/java-jdbc-CallableStatement.jsp"></put-attribute> 		
  	</definition>
  	 <!-- 
  	 						MultiThreading
  	  -->
- 	  <definition name="core-java-multi-threading"  template="/layoutManager.jsp">
+ 	  <definition name="core-java-multi-threading"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Multithreading"></put-attribute>
  		<put-attribute name="body" value="/java/java-multi-threading.jsp"></put-attribute> 		
  	</definition>
  	<!-- 
  	
  	 -->
- 	 <definition name="core-java-regex-expression"  template="/layoutManager.jsp">
+ 	 <definition name="core-java-regex-expression"  template="/layoutManagerJava.jsp">
  		<put-attribute name="title" value="Regex Expression"></put-attribute>
  		<put-attribute name="body" value="/java/java-regex-expression.jsp"></put-attribute> 		
  	</definition>

@@ -21,7 +21,7 @@
 		<td>True, False</td>
 	</tr>
 </table>
-<pre>
+<pre id="codepre">
 userName="Ashu"
 userAge=29
 userSalary=19.9
@@ -39,7 +39,7 @@ print(type(userTuple))
 print(type(userSet))
 print(type(userDict))
 </pre>
-<pre>
+<pre id="outputpre">
 &#60;class &#96str&#96&#62;
 &#60;class &#96int&#96&#62;
 &#60;class &#96float&#96&#62;
@@ -75,7 +75,7 @@ print(type(userDict))
 			<td>Only print 6 digit</td>
 		</tr>
 </table>
-<pre>
+<pre id="codepre">
 def getValueFrom(id,name,marks):
 	# substitute must be same order
 	print("Student ID=%d Student Name=%s Student Marks=%g"%(id1,name,marks))	
@@ -83,13 +83,13 @@ id1=int(input("Enter Student ID: "))
 name=input("Enter Student Name: ")	
 marks=float(input("Enter Student Marks: "))
 getValueFrom(id1,name,marks)</pre>
-<pre>
+<pre id="outputpre">
 Enter Student ID: 1002
 Enter Student Name: Ashutosh
 Enter Student Marks: 98.9
 Student ID=1002 Student Name=Ashutosh Student Marks=98.9
 </pre>
-<pre>
+<pre id="codepre">
 def getValueFrom(id,name,marks):
 	#substitute must be same order.Here Type is important
 	print("Student ID=%d Student Name=%s Student Marks=%g"%(id1,name,marks))
@@ -101,7 +101,7 @@ name=input("Enter Student Name: ")
 marks=float(input("Enter Student Marks: "))
 getValueFrom(id1,name,marks)
 </pre>
-<pre>
+<pre id="outputpre">
 Enter Student ID: 1002
 Enter Student Name: ashu
 Enter Student Marks: 98.78
